@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "BLDC_4-rescue")(type "Legacy")(uri "C:/Users/bnarb/OneDrive/Documents/ProjectsFolder/100V_250AVESC/100_250VESC/cheapFOC/BLDC_4-rescue.lib")(options "")(descr ""))
+  (lib (name "Cheap FOCer 2 60mm-rescue")(type "KiCad")(uri "C:/Users/bnarb/OneDrive/Documents/ProjectsFolder/100V_250AVESC/100_250VESC/cheapFOC/Cheap FOCer 2 60mm-rescue.kicad_sym")(options "")(descr ""))
+  (lib (name "Cheap-FOCer-2-60mm-rescue")(type "Legacy")(uri "C:/Users/bnarb/OneDrive/Documents/ProjectsFolder/100V_250AVESC/100_250VESC/cheapFOC/Cheap FOCer 2 60mm-rescue.lib")(options "")(descr ""))
+)
