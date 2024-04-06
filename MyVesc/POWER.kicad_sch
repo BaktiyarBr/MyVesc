@@ -1171,159 +1171,6 @@
 				)
 			)
 		)
-		(symbol "MC74VHC1GT66:MC74VHC1GT66"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U7"
-				(at 0 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MC74VHC1GT66"
-				(at 1.016 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MC74VHC1GT66_0_1"
-				(rectangle
-					(start -6.35 -1.27)
-					(end 7.62 -11.43)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MC74VHC1GT66_1_1"
-				(pin passive line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "IO_XA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -5.08 180)
-					(length 2.54)
-					(name "IO_YA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -8.89 -10.16 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -10.16 180)
-					(length 2.54)
-					(name "ON_OFF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -8.89 -2.54 0)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "UCC2721x:UCC2721x"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2111,12 +1958,6 @@
 		(uuid "0062d0fd-5348-43f3-a251-30ca9dd08a5c")
 	)
 	(junction
-		(at 121.92 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0dad68a5-d790-4f66-9263-cece005692ec")
-	)
-	(junction
 		(at 142.24 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2163,12 +2004,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "30a7ee0d-e50e-4011-ba17-3a472ab0429b")
-	)
-	(junction
-		(at 30.48 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "339cfd2f-6e13-49d1-bee6-73e03020db38")
 	)
 	(junction
 		(at 212.09 147.32)
@@ -2321,12 +2156,6 @@
 		(uuid "a89e0ecc-50b1-485f-9c7a-e34b6a8988ea")
 	)
 	(junction
-		(at 76.2 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ae74fad5-1f8c-43ce-a4c6-ad3e78e911dc")
-	)
-	(junction
 		(at 160.02 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2476,16 +2305,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 127) (xy 91.44 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "011d1cc0-1c79-4f88-bb99-989a34830749")
-	)
-	(wire
-		(pts
 			(xy 138.43 90.17) (xy 142.24 90.17)
 		)
 		(stroke
@@ -2536,16 +2355,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 109.22) (xy 72.39 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04c13da9-177a-4dc8-ba2a-ee78822054f3")
-	)
-	(wire
-		(pts
 			(xy 86.36 54.61) (xy 86.36 64.77)
 		)
 		(stroke
@@ -2576,16 +2385,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 114.3) (xy 147.32 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0abef593-393d-4df9-bb26-494cd0989c9e")
-	)
-	(wire
-		(pts
 			(xy 21.59 54.61) (xy 21.59 64.77)
 		)
 		(stroke
@@ -2603,16 +2402,6 @@
 			(type default)
 		)
 		(uuid "0f7134fc-5ffc-42b9-ac45-b06603ccdc19")
-	)
-	(wire
-		(pts
-			(xy 30.48 111.76) (xy 26.67 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10c1ca05-b722-44c3-b01b-abc15347b963")
 	)
 	(wire
 		(pts
@@ -2643,16 +2432,6 @@
 			(type default)
 		)
 		(uuid "148a5d1a-c4d7-4d91-b090-14e49eee25d6")
-	)
-	(wire
-		(pts
-			(xy 76.2 119.38) (xy 72.39 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14cc2695-e455-4150-8394-2f6356dad5bd")
 	)
 	(wire
 		(pts
@@ -2746,16 +2525,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 111.76) (xy 53.34 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18d1d45c-8ee1-48aa-85d6-fecbf6f1404d")
-	)
-	(wire
-		(pts
 			(xy 102.87 153.67) (xy 102.87 149.86)
 		)
 		(stroke
@@ -2826,16 +2595,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 101.6) (xy 76.2 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2560bd7d-75cd-4561-b136-c0bfae0aae1a")
-	)
-	(wire
-		(pts
 			(xy 30.48 90.17) (xy 39.37 90.17)
 		)
 		(stroke
@@ -2856,26 +2615,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 114.3) (xy 147.32 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "293e882f-4fc2-44ca-a13c-b4ca623b11b8")
-	)
-	(wire
-		(pts
-			(xy 76.2 111.76) (xy 72.39 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a5026ae-9170-4d11-838f-3317ae19a747")
-	)
-	(wire
-		(pts
 			(xy 213.36 85.09) (xy 219.71 85.09)
 		)
 		(stroke
@@ -2886,16 +2625,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 119.38) (xy 26.67 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2bfc6158-71e9-4fb9-a183-40d0ee3825cb")
-	)
-	(wire
-		(pts
 			(xy 190.5 121.92) (xy 190.5 119.38)
 		)
 		(stroke
@@ -2903,16 +2632,6 @@
 			(type default)
 		)
 		(uuid "2d2d1de4-4a66-4291-a149-56645d1a30d4")
-	)
-	(wire
-		(pts
-			(xy 96.52 119.38) (xy 96.52 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d482d51-e39a-42eb-ab72-9ef0cdfc0635")
 	)
 	(wire
 		(pts
@@ -2933,16 +2652,6 @@
 			(type default)
 		)
 		(uuid "2e154d46-47d6-41f8-b52b-8ea17e70a830")
-	)
-	(wire
-		(pts
-			(xy 55.88 114.3) (xy 55.88 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e28ebba-d7d9-49eb-a42a-db701e3536b0")
 	)
 	(wire
 		(pts
@@ -2996,16 +2705,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 119.38) (xy 118.11 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "321b8b49-0b4a-4754-a21f-29f3646145c4")
-	)
-	(wire
-		(pts
 			(xy 233.68 133.35) (xy 233.68 135.89)
 		)
 		(stroke
@@ -3023,16 +2722,6 @@
 			(type default)
 		)
 		(uuid "3264aa74-aa95-4b7c-8f64-799bd9f96a48")
-	)
-	(wire
-		(pts
-			(xy 72.39 119.38) (xy 72.39 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "327a68a7-471b-40a3-aa7c-c5abe91855e6")
 	)
 	(wire
 		(pts
@@ -3063,16 +2752,6 @@
 			(type default)
 		)
 		(uuid "3496e4d5-c78f-4e43-94b2-02eece0a1e7f")
-	)
-	(wire
-		(pts
-			(xy 121.92 119.38) (xy 118.11 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35c86022-070c-4431-be3b-d7ffed3ce8a5")
 	)
 	(wire
 		(pts
@@ -3163,16 +2842,6 @@
 			(type default)
 		)
 		(uuid "41ce7293-2e4b-4380-bff6-bef4914455d7")
-	)
-	(wire
-		(pts
-			(xy 99.06 111.76) (xy 99.06 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "429be967-a5fe-49d8-b1bb-3d92a1ea70c8")
 	)
 	(wire
 		(pts
@@ -3536,26 +3205,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 109.22) (xy 118.11 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71aead66-a968-45df-884f-fc7892f8969c")
-	)
-	(wire
-		(pts
-			(xy 85.09 101.6) (xy 76.2 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71f52b58-abdf-42b2-8035-d9fe140fb032")
-	)
-	(wire
-		(pts
 			(xy 121.92 90.17) (xy 121.92 95.25)
 		)
 		(stroke
@@ -3563,16 +3212,6 @@
 			(type default)
 		)
 		(uuid "723b4b7f-f881-41f0-aaa1-fd23b152644a")
-	)
-	(wire
-		(pts
-			(xy 101.6 114.3) (xy 101.6 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72e9584f-d2a6-4118-b364-7a31324256f2")
 	)
 	(wire
 		(pts
@@ -3603,16 +3242,6 @@
 			(type default)
 		)
 		(uuid "74de21da-84e0-4172-8927-b8652d21bcc3")
-	)
-	(wire
-		(pts
-			(xy 121.92 111.76) (xy 118.11 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74f87472-5269-4f5f-bde7-b34cb459f5ee")
 	)
 	(wire
 		(pts
@@ -3683,16 +3312,6 @@
 			(type default)
 		)
 		(uuid "7be12b9e-a85e-4748-857e-0bf345112d24")
-	)
-	(wire
-		(pts
-			(xy 53.34 111.76) (xy 49.53 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c2f42ab-1af8-469d-9bd6-8dbca8a0705d")
 	)
 	(wire
 		(pts
@@ -3793,16 +3412,6 @@
 			(type default)
 		)
 		(uuid "88b85955-56ae-4dcc-8465-d91f2ad08d59")
-	)
-	(wire
-		(pts
-			(xy 144.78 111.76) (xy 144.78 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "893342da-ee64-4ced-8259-0291af796677")
 	)
 	(wire
 		(pts
@@ -3956,16 +3565,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 119.38) (xy 96.52 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95ca8271-f5b7-4c86-b29f-04ef7bfbf071")
-	)
-	(wire
-		(pts
 			(xy 64.77 46.99) (xy 64.77 50.8)
 		)
 		(stroke
@@ -4116,16 +3715,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 119.38) (xy 50.8 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a357a0a2-25c5-4361-83d1-de6453c57ea5")
-	)
-	(wire
-		(pts
 			(xy 33.02 170.18) (xy 22.86 170.18)
 		)
 		(stroke
@@ -4156,16 +3745,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 114.3) (xy 101.6 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5cf201c-1de6-456d-86fe-667ebbcd6976")
-	)
-	(wire
-		(pts
 			(xy 129.54 46.99) (xy 129.54 50.8)
 		)
 		(stroke
@@ -4183,16 +3762,6 @@
 			(type default)
 		)
 		(uuid "a665a89e-7da0-4028-ad10-3ad61e5bdeb4")
-	)
-	(wire
-		(pts
-			(xy 39.37 101.6) (xy 30.48 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7aca44a-71ad-45d5-b7ec-7beb59fb12f5")
 	)
 	(wire
 		(pts
@@ -4276,16 +3845,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 127) (xy 45.72 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8d86375-f27a-4b2a-8d95-b6bdf9146032")
-	)
-	(wire
-		(pts
 			(xy 152.4 173.99) (xy 160.02 173.99)
 		)
 		(stroke
@@ -4296,16 +3855,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 114.3) (xy 55.88 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc7926bd-9c6d-4c1b-9ee7-f91130d0969a")
-	)
-	(wire
-		(pts
 			(xy 245.11 137.16) (xy 251.46 137.16)
 		)
 		(stroke
@@ -4313,16 +3862,6 @@
 			(type default)
 		)
 		(uuid "be739312-c49b-4714-87f9-5cb9d2f49328")
-	)
-	(wire
-		(pts
-			(xy 53.34 101.6) (xy 46.99 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bee6ef5a-33a1-42cd-94c5-d904778d6ba1")
 	)
 	(wire
 		(pts
@@ -4416,16 +3955,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 127) (xy 137.16 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c57eb63b-7878-4468-8979-ef1d977c60f8")
-	)
-	(wire
-		(pts
 			(xy 193.04 121.92) (xy 190.5 121.92)
 		)
 		(stroke
@@ -4443,16 +3972,6 @@
 			(type default)
 		)
 		(uuid "c6342393-2325-4f8f-b229-95058bb74b05")
-	)
-	(wire
-		(pts
-			(xy 144.78 101.6) (xy 138.43 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c68bf76b-a33c-4047-a6cc-c8f990ee962f")
 	)
 	(wire
 		(pts
@@ -4696,16 +4215,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 101.6) (xy 121.92 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0feab90-bcf1-47dc-9d67-a1a1fa4ba336")
-	)
-	(wire
-		(pts
 			(xy 33.02 167.64) (xy 27.94 167.64)
 		)
 		(stroke
@@ -4716,16 +4225,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 101.6) (xy 30.48 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2620037-1964-4ff5-9c01-03bd5d0af4bf")
-	)
-	(wire
-		(pts
 			(xy 92.71 90.17) (xy 96.52 90.17)
 		)
 		(stroke
@@ -4733,26 +4232,6 @@
 			(type default)
 		)
 		(uuid "e4728647-f118-442a-a258-aafb137c96e1")
-	)
-	(wire
-		(pts
-			(xy 142.24 119.38) (xy 142.24 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4bf6b7b-bf7c-43e8-a456-c419ee2f1518")
-	)
-	(wire
-		(pts
-			(xy 144.78 111.76) (xy 140.97 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e61eaa2e-6e0d-4293-9876-cca3fbc0bfb9")
 	)
 	(wire
 		(pts
@@ -4826,16 +4305,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 111.76) (xy 95.25 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb400aae-3dde-4b02-8594-b41e53f46aa4")
-	)
-	(wire
-		(pts
 			(xy 217.17 139.7) (xy 217.17 147.32)
 		)
 		(stroke
@@ -4886,16 +4355,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 101.6) (xy 121.92 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef57e04f-aa12-45d6-b383-6563c1d5629a")
-	)
-	(wire
-		(pts
 			(xy 118.11 50.8) (xy 129.54 50.8)
 		)
 		(stroke
@@ -4903,26 +4362,6 @@
 			(type default)
 		)
 		(uuid "f123f68a-5f94-4901-a95a-a971bd250c98")
-	)
-	(wire
-		(pts
-			(xy 26.67 119.38) (xy 26.67 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1788a42-608e-41a9-8d98-e6731545ae21")
-	)
-	(wire
-		(pts
-			(xy 26.67 109.22) (xy 26.67 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1822624-aae2-4ff3-9096-17dc6235c4f8")
 	)
 	(wire
 		(pts
@@ -4946,26 +4385,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 119.38) (xy 142.24 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2414f09-812e-4659-8d4e-ef970cef0a38")
-	)
-	(wire
-		(pts
-			(xy 49.53 119.38) (xy 50.8 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f26e9a9a-86b9-4df3-85e6-5821921c3bc8")
-	)
-	(wire
-		(pts
 			(xy 102.87 158.75) (xy 116.84 158.75)
 		)
 		(stroke
@@ -4973,16 +4392,6 @@
 			(type default)
 		)
 		(uuid "f2ac0abf-e102-4040-8510-baebfc069dac")
-	)
-	(wire
-		(pts
-			(xy 99.06 101.6) (xy 92.71 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f354bdbc-c15b-42eb-8945-57eec4c0a7ce")
 	)
 	(wire
 		(pts
@@ -5286,18 +4695,6 @@
 			)
 		)
 	)
-	(hierarchical_label "SENS_FILTER"
-		(shape input)
-		(at 137.16 127 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "08a8b61b-41fb-43d6-b019-086effbb13db")
-	)
 	(hierarchical_label "HS1"
 		(shape input)
 		(at 72.39 50.8 0)
@@ -5357,18 +4754,6 @@
 			(justify left)
 		)
 		(uuid "4910cd9f-8f5b-4e21-b5bf-9727d224e68b")
-	)
-	(hierarchical_label "SENS_FILTER"
-		(shape input)
-		(at 45.72 127 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4cbf2e1d-9238-4b1a-b58c-e6ad6a483b75")
 	)
 	(hierarchical_label "SENS_1"
 		(shape input)
@@ -5441,18 +4826,6 @@
 			(justify left)
 		)
 		(uuid "8a254a61-04cb-4450-a35d-74cf2ff5918a")
-	)
-	(hierarchical_label "SENS_FILTER"
-		(shape input)
-		(at 91.44 127 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8da23cad-bdef-4d7b-9241-a4baed501c0e")
 	)
 	(hierarchical_label "HO2"
 		(shape input)
@@ -5786,75 +5159,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 134.62 101.6 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0a42b377-4aa5-4db2-a25e-f5b394512ea7")
-		(property "Reference" "C26"
-			(at 132.842 103.124 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 132.842 100.076 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 138.43 100.6348 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 134.62 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 134.62 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c188a510-06d0-4cef-8178-b34c665275da")
-		)
-		(pin "1"
-			(uuid "bc5f001e-9c65-46fd-a961-c26ed1df2ab5")
-		)
-		(instances
-			(project "MyVesc"
-				(path "/b7d1d049-1490-46e4-83b7-ec5dff08d2d8/00000000-0000-0000-0000-0000504f83be"
-					(reference "C26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "BLDC_4-rescue:GND-RESCUE-BLDC_4")
 		(at 57.15 189.23 0)
 		(unit 1)
@@ -5984,71 +5288,6 @@
 			(project "MyVesc"
 				(path "/b7d1d049-1490-46e4-83b7-ec5dff08d2d8/00000000-0000-0000-0000-0000504f83be"
 					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BLDC_4-rescue:VCC")
-		(at 72.39 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "12491d06-30e5-4d1c-8d16-84e4ba9ca205")
-		(property "Reference" "#PWR059"
-			(at 72.39 106.68 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 72.39 105.41 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 109.22 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 109.22 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 72.39 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "91a53125-99b4-44d9-9677-80c11ac4af53")
-		)
-		(instances
-			(project "MyVesc"
-				(path "/b7d1d049-1490-46e4-83b7-ec5dff08d2d8/00000000-0000-0000-0000-0000504f83be"
-					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -6412,151 +5651,6 @@
 			(project "MyVesc"
 				(path "/b7d1d049-1490-46e4-83b7-ec5dff08d2d8/00000000-0000-0000-0000-0000504f83be"
 					(reference "C27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 88.9 101.6 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "329941ad-f789-4b71-a3db-0e9a5f2083f3")
-		(property "Reference" "C25"
-			(at 87.122 103.124 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 87.122 100.076 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 92.71 100.6348 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 88.9 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 88.9 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e1b15ae7-909c-448b-a2b7-1581214ae0db")
-		)
-		(pin "1"
-			(uuid "12161516-16e0-4f39-a654-9771fc189606")
-		)
-		(instances
-			(project "MyVesc"
-				(path "/b7d1d049-1490-46e4-83b7-ec5dff08d2d8/00000000-0000-0000-0000-0000504f83be"
-					(reference "C25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MC74VHC1GT66:MC74VHC1GT66")
-		(at 85.09 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "32f057e8-40e8-4909-afbe-94b7706b668a")
-		(property "Reference" "U8"
-			(at 85.09 107.188 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MC74VHC1GT66"
-			(at 86.106 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:TSOP-5_1.65x3.05mm_P0.95mm"
-			(at 85.09 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 85.09 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2b1ba61c-1990-437b-b263-13454b3650a8")
-		)
-		(pin "1"
-			(uuid "eaa89591-d28d-4c5c-940b-8e952699e0a5")
-		)
-		(pin "5"
-			(uuid "749ba5d9-7077-4a2b-bdcf-b7ddad601ec2")
-		)
-		(pin "3"
-			(uuid "846f2135-2402-4d4a-a08b-acbd3016cf88")
-		)
-		(pin "4"
-			(uuid "b8011290-dc0a-4bd8-9294-d5463215898b")
-		)
-		(instances
-			(project "MyVesc"
-				(path "/b7d1d049-1490-46e4-83b7-ec5dff08d2d8/00000000-0000-0000-0000-0000504f83be"
-					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -6935,72 +6029,6 @@
 		)
 	)
 	(symbol
-		(lib_id "BLDC_4-rescue:GND-RESCUE-BLDC_4")
-		(at 72.39 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "473d3ca4-7ffc-4ddb-80bd-109c8042fad5")
-		(property "Reference" "#PWR066"
-			(at 72.39 123.19 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 72.39 124.968 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 123.19 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 123.19 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 72.39 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f585bb35-fec1-4501-bf7c-4507b9e49a46")
-		)
-		(instances
-			(project "MyVesc"
-				(path "/b7d1d049-1490-46e4-83b7-ec5dff08d2d8/00000000-0000-0000-0000-0000504f83be"
-					(reference "#PWR066")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 190.5 140.97 0)
 		(unit 1)
@@ -7333,72 +6361,6 @@
 			(project "MyVesc"
 				(path "/b7d1d049-1490-46e4-83b7-ec5dff08d2d8/00000000-0000-0000-0000-0000504f83be"
 					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BLDC_4-rescue:GND-RESCUE-BLDC_4")
-		(at 55.88 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5c357807-685f-46dc-848e-3bf3287cb6a7")
-		(property "Reference" "#PWR061"
-			(at 55.88 118.11 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 55.88 119.888 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 118.11 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 118.11 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 55.88 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d8d510f2-0b60-47be-9827-1c364b24d64e")
-		)
-		(instances
-			(project "MyVesc"
-				(path "/b7d1d049-1490-46e4-83b7-ec5dff08d2d8/00000000-0000-0000-0000-0000504f83be"
-					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -7828,72 +6790,6 @@
 		)
 	)
 	(symbol
-		(lib_id "BLDC_4-rescue:GND-RESCUE-BLDC_4")
-		(at 118.11 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "74de0527-f673-4d53-8178-fb42b3c54046")
-		(property "Reference" "#PWR067"
-			(at 118.11 123.19 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 118.11 124.968 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 118.11 123.19 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 123.19 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 118.11 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d615a474-a7d6-4d70-8c70-8966fb84a0ea")
-		)
-		(instances
-			(project "MyVesc"
-				(path "/b7d1d049-1490-46e4-83b7-ec5dff08d2d8/00000000-0000-0000-0000-0000504f83be"
-					(reference "#PWR067")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 33.02 153.67 90)
 		(unit 1)
@@ -8187,72 +7083,6 @@
 		)
 	)
 	(symbol
-		(lib_id "BLDC_4-rescue:GND-RESCUE-BLDC_4")
-		(at 101.6 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7de3b476-92bd-4e30-ac5c-571058f9e611")
-		(property "Reference" "#PWR062"
-			(at 101.6 118.11 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 101.6 119.888 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 118.11 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 118.11 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 101.6 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "81eaeeb7-beaf-4b55-8a7d-bb775197f289")
-		)
-		(instances
-			(project "MyVesc"
-				(path "/b7d1d049-1490-46e4-83b7-ec5dff08d2d8/00000000-0000-0000-0000-0000504f83be"
-					(reference "#PWR062")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 262.89 135.89 0)
 		(unit 1)
@@ -8383,82 +7213,6 @@
 			(project "MyVesc"
 				(path "/b7d1d049-1490-46e4-83b7-ec5dff08d2d8/00000000-0000-0000-0000-0000504f83be"
 					(reference "R28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MC74VHC1GT66:MC74VHC1GT66")
-		(at 130.81 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "812571fe-87d5-4708-b233-12e5455b9e2f")
-		(property "Reference" "U9"
-			(at 130.81 107.188 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MC74VHC1GT66"
-			(at 131.826 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:TSOP-5_1.65x3.05mm_P0.95mm"
-			(at 130.81 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 130.81 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "23ef3bcb-c710-491e-8912-86572838a18f")
-		)
-		(pin "1"
-			(uuid "26c7868e-b1bc-4afe-856c-0e5915160b55")
-		)
-		(pin "5"
-			(uuid "6667a489-f6b5-4d68-8396-7ba3c1130e01")
-		)
-		(pin "3"
-			(uuid "a9c5ef79-c631-4f65-95f2-0c6b8fa641ba")
-		)
-		(pin "4"
-			(uuid "c706a353-0265-416c-a45b-e5ebf8c57d39")
-		)
-		(instances
-			(project "MyVesc"
-				(path "/b7d1d049-1490-46e4-83b7-ec5dff08d2d8/00000000-0000-0000-0000-0000504f83be"
-					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -9379,71 +8133,6 @@
 		)
 	)
 	(symbol
-		(lib_id "BLDC_4-rescue:VCC")
-		(at 118.11 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "966a3a2f-7fef-4b88-8b02-315ef02b2904")
-		(property "Reference" "#PWR060"
-			(at 118.11 106.68 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 118.11 105.41 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 118.11 109.22 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 109.22 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 118.11 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cf6d846e-ea9a-4788-8d11-dceb3c6406fa")
-		)
-		(instances
-			(project "MyVesc"
-				(path "/b7d1d049-1490-46e4-83b7-ec5dff08d2d8/00000000-0000-0000-0000-0000504f83be"
-					(reference "#PWR060")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L")
 		(at 74.93 170.18 270)
 		(unit 1)
@@ -9574,71 +8263,6 @@
 			(project "MyVesc"
 				(path "/b7d1d049-1490-46e4-83b7-ec5dff08d2d8/00000000-0000-0000-0000-0000504f83be"
 					(reference "C33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BLDC_4-rescue:VCC")
-		(at 26.67 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a260b8a9-e46c-4bac-b462-bb76183dabd2")
-		(property "Reference" "#PWR058"
-			(at 26.67 106.68 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 26.67 105.41 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 26.67 109.22 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 109.22 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 26.67 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c26f5012-cd7e-488d-9522-b094bf363872")
-		)
-		(instances
-			(project "MyVesc"
-				(path "/b7d1d049-1490-46e4-83b7-ec5dff08d2d8/00000000-0000-0000-0000-0000504f83be"
-					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -10117,75 +8741,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 43.18 101.6 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c47ed45c-fc89-42eb-bcfa-a641ccf495e1")
-		(property "Reference" "C24"
-			(at 41.402 103.124 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 41.402 100.076 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 46.99 100.6348 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 43.18 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 43.18 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "39f44391-cd86-4da9-972f-408f2e221d05")
-		)
-		(pin "1"
-			(uuid "7c6b50a9-b1cb-41ef-b112-f70e90e1ba5f")
-		)
-		(instances
-			(project "MyVesc"
-				(path "/b7d1d049-1490-46e4-83b7-ec5dff08d2d8/00000000-0000-0000-0000-0000504f83be"
-					(reference "C24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 43.18 90.17 90)
 		(unit 1)
@@ -10585,148 +9140,6 @@
 		)
 	)
 	(symbol
-		(lib_id "BLDC_4-rescue:GND-RESCUE-BLDC_4")
-		(at 26.67 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e06eb368-05ea-4401-83d2-858ad4398477")
-		(property "Reference" "#PWR065"
-			(at 26.67 123.19 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 26.67 124.968 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 26.67 123.19 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 123.19 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 26.67 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d651a19d-752f-4d85-aea4-90603a6379d7")
-		)
-		(instances
-			(project "MyVesc"
-				(path "/b7d1d049-1490-46e4-83b7-ec5dff08d2d8/00000000-0000-0000-0000-0000504f83be"
-					(reference "#PWR065")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MC74VHC1GT66:MC74VHC1GT66")
-		(at 39.37 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e2fec94a-dbfd-408d-be38-6502902f705d")
-		(property "Reference" "U7"
-			(at 39.37 107.188 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MC74VHC1GT66"
-			(at 40.386 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:TSOP-5_1.65x3.05mm_P0.95mm"
-			(at 39.37 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 39.37 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "43b910a0-833b-4eb7-a843-a41b5827ec85")
-		)
-		(pin "1"
-			(uuid "ed7c2499-80dd-4610-98d7-8841ac607259")
-		)
-		(pin "5"
-			(uuid "5f3cfe70-1b02-482e-b8fd-857e217f5b78")
-		)
-		(pin "3"
-			(uuid "c3bd3f3f-31f7-4462-a2cc-04f8b4e68113")
-		)
-		(pin "4"
-			(uuid "ce8f8ea9-d6e5-441f-9985-772323e728a7")
-		)
-		(instances
-			(project "MyVesc"
-				(path "/b7d1d049-1490-46e4-83b7-ec5dff08d2d8/00000000-0000-0000-0000-0000504f83be"
-					(reference "U7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 193.04 43.18 0)
 		(unit 1)
@@ -10790,72 +9203,6 @@
 			(project "MyVesc"
 				(path "/b7d1d049-1490-46e4-83b7-ec5dff08d2d8/00000000-0000-0000-0000-0000504f83be"
 					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BLDC_4-rescue:GND-RESCUE-BLDC_4")
-		(at 147.32 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e7a4ce4b-d836-4801-b360-6bc68808479b")
-		(property "Reference" "#PWR063"
-			(at 147.32 118.11 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 147.32 119.888 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 118.11 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 118.11 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 147.32 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e21db869-a469-4d33-bc03-083f5a8ccb93")
-		)
-		(instances
-			(project "MyVesc"
-				(path "/b7d1d049-1490-46e4-83b7-ec5dff08d2d8/00000000-0000-0000-0000-0000504f83be"
-					(reference "#PWR063")
 					(unit 1)
 				)
 			)
