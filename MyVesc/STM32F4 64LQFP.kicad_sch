@@ -2528,11 +2528,19 @@
 		(uuid "fe6c75c6-5dcd-4af2-ac75-035896b7ff32")
 	)
 	(no_connect
-		(at 243.84 133.35)
+		(at 243.84 107.95)
+		(uuid "0c85353a-8ca5-4edb-95d5-01c74fdeea43")
+	)
+	(no_connect
+		(at 243.84 118.11)
 		(uuid "4970bba7-5736-40ed-964d-b22696980ea6")
 	)
 	(no_connect
-		(at 243.84 128.27)
+		(at 243.84 110.49)
+		(uuid "c7a713a9-1724-4241-9dd9-94ea1af94486")
+	)
+	(no_connect
+		(at 243.84 113.03)
 		(uuid "f4f32e94-567c-40af-b4ef-53067cf9b703")
 	)
 	(wire
@@ -2857,7 +2865,7 @@
 	)
 	(polyline
 		(pts
-			(xy 233.68 137.16) (xy 266.7 137.16)
+			(xy 233.68 121.92) (xy 266.7 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3077,7 +3085,7 @@
 	)
 	(polyline
 		(pts
-			(xy 233.68 114.3) (xy 233.68 137.16)
+			(xy 233.68 99.06) (xy 233.68 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3127,7 +3135,7 @@
 	)
 	(polyline
 		(pts
-			(xy 233.68 114.3) (xy 266.7 114.3)
+			(xy 233.68 99.06) (xy 266.7 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3157,7 +3165,7 @@
 	)
 	(polyline
 		(pts
-			(xy 266.7 137.16) (xy 266.7 114.3)
+			(xy 266.7 121.92) (xy 266.7 99.06)
 		)
 		(stroke
 			(width 0)
@@ -5732,7 +5740,7 @@
 	)
 	(text "Unused MCU Pins\n"
 		(exclude_from_sim no)
-		(at 240.03 140.97 0)
+		(at 240.03 125.73 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -5756,7 +5764,7 @@
 	)
 	(global_label "PB3"
 		(shape input)
-		(at 256.54 130.81 0)
+		(at 256.54 115.57 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -5765,7 +5773,7 @@
 		)
 		(uuid "00e9b60c-8d1f-4371-a673-b250f3cee09b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 256.54 130.81 0)
+			(at 256.54 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5806,6 +5814,26 @@
 		(uuid "12ffe70f-fcde-4845-8253-8be603d79e47")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 179.07 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PC13"
+		(shape input)
+		(at 256.54 107.95 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "1663bfaf-03c1-4769-8643-01518393dc3c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 256.54 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5876,26 +5904,6 @@
 	)
 	(global_label "PC14"
 		(shape input)
-		(at 256.54 123.19 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left)
-		)
-		(uuid "635b61a0-a3aa-4dcb-8926-e50d26018db6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 256.54 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PC14"
-		(shape input)
 		(at 179.07 44.45 0)
 		(effects
 			(font
@@ -5936,7 +5944,7 @@
 	)
 	(global_label "PB4"
 		(shape input)
-		(at 256.54 133.35 0)
+		(at 256.54 118.11 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -5945,7 +5953,47 @@
 		)
 		(uuid "7318aefa-563d-4c57-a0d2-223645953404")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 256.54 133.35 0)
+			(at 256.54 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PC14"
+		(shape input)
+		(at 256.54 113.03 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "7567850f-6591-4d5a-9d4c-c98ba6fd263b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 256.54 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PB12"
+		(shape input)
+		(at 243.84 115.57 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "793e45e5-16c7-40a5-9f2c-43765d8b985f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 243.84 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5966,46 +6014,6 @@
 		(uuid "7a62ba67-5da1-4be0-a999-ee94baaaae9f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 179.07 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PA15"
-		(shape input)
-		(at 256.54 128.27 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left)
-		)
-		(uuid "7aa40795-7805-4a6c-8971-2a42f7c0e004")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 256.54 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PB2"
-		(shape input)
-		(at 243.84 123.19 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right)
-		)
-		(uuid "83b90f83-0e42-404c-8b60-e759b5ae6959")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 243.84 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6036,7 +6044,7 @@
 	)
 	(global_label "PC15"
 		(shape input)
-		(at 256.54 125.73 0)
+		(at 256.54 110.49 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -6045,7 +6053,7 @@
 		)
 		(uuid "8daa54c2-effa-46fb-8073-3f7d835293e0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 256.54 125.73 0)
+			(at 256.54 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6066,26 +6074,6 @@
 		(uuid "91744159-70bd-4b8e-8bf7-bdca41f5aea7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 205.74 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PC13"
-		(shape input)
-		(at 243.84 130.81 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right)
-		)
-		(uuid "98f9ab56-c1be-4286-b936-250ad1d7881c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 243.84 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6146,26 +6134,6 @@
 		(uuid "ca8e2493-a950-42c8-bea5-ae857b82449a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 181.61 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PB12"
-		(shape input)
-		(at 243.84 125.73 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right)
-		)
-		(uuid "d698b26d-304a-4ee3-b736-62addb547b86")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 243.84 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8716,7 +8684,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x05_Top_Bottom")
-		(at 248.92 128.27 0)
+		(at 248.92 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8724,7 +8692,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d71ee29")
 		(property "Reference" "J5"
-			(at 250.19 117.6782 0)
+			(at 250.19 102.4382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8732,7 +8700,7 @@
 			)
 		)
 		(property "Value" "UNUSED MCU PINS"
-			(at 250.19 119.9896 0)
+			(at 250.19 104.7496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8740,7 +8708,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_2x05_P2.00mm_Vertical"
-			(at 248.92 128.27 0)
+			(at 248.92 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8749,7 +8717,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 248.92 128.27 0)
+			(at 248.92 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8758,7 +8726,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 248.92 128.27 0)
+			(at 248.92 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)

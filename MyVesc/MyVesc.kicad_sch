@@ -2255,14 +2255,6 @@
 		(uuid "1d1f247c-60c5-478d-8985-1567c7ef0343")
 	)
 	(no_connect
-		(at 127 133.35)
-		(uuid "41bbe340-1513-49e1-a3af-c57410b245a2")
-	)
-	(no_connect
-		(at 127 135.89)
-		(uuid "4633624f-8db2-44d5-a187-d2ab7429bfe1")
-	)
-	(no_connect
 		(at 127 157.48)
 		(uuid "b7bdf5c6-5a40-463e-94fd-5c3a7001282e")
 	)
@@ -2388,6 +2380,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 135.89) (xy 127 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "122a0467-d69b-4e3c-a5f5-256d4a1b3bf9")
+	)
+	(wire
+		(pts
 			(xy 46.99 87.63) (xy 50.8 87.63)
 		)
 		(stroke
@@ -2408,16 +2410,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 25.4) (xy 115.57 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "187f62f1-adf0-4c61-bc07-1fb2df597015")
-	)
-	(wire
-		(pts
 			(xy 191.77 43.18) (xy 198.12 43.18)
 		)
 		(stroke
@@ -2425,6 +2417,16 @@
 			(type default)
 		)
 		(uuid "1b12221d-3d05-4b8b-b05e-f790cf8c48ab")
+	)
+	(wire
+		(pts
+			(xy 109.22 138.43) (xy 109.22 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cc64a55-11c9-4997-bd9f-b0f8b8a535d9")
 	)
 	(wire
 		(pts
@@ -2568,6 +2570,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 130.81) (xy 109.22 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35870c7c-c4bc-496d-ba0f-38ed602fa6b8")
+	)
+	(wire
+		(pts
 			(xy 88.9 54.61) (xy 88.9 53.34)
 		)
 		(stroke
@@ -2658,7 +2670,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 25.4) (xy 95.25 25.4)
+			(xy 95.25 25.4) (xy 115.57 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2865,6 +2877,26 @@
 			(type default)
 		)
 		(uuid "65a4217f-b77b-4316-b369-5efed48ac0f6")
+	)
+	(wire
+		(pts
+			(xy 106.68 130.81) (xy 109.22 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6627f389-54ab-4450-a268-7c49dfe8d526")
+	)
+	(wire
+		(pts
+			(xy 106.68 133.35) (xy 127 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "666e4c89-46c6-40fb-8759-a78247d6a6a3")
 	)
 	(wire
 		(pts
@@ -3145,6 +3177,16 @@
 			(type default)
 		)
 		(uuid "a4013964-a32f-4909-aa9d-fdcedb18a867")
+	)
+	(wire
+		(pts
+			(xy 106.68 138.43) (xy 109.22 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a66099e9-a388-40a4-bcfe-e7cc6f2bb6ca")
 	)
 	(wire
 		(pts
@@ -3799,7 +3841,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_Micro-B_Wuerth_614105150721_Vertical"
+		(property "Footprint" "Connector_USB:USB_Mini-B_Lumberg_2486_01_Horizontal"
 			(at 77.978 54.864 0)
 			(effects
 				(font
@@ -5087,6 +5129,71 @@
 		)
 	)
 	(symbol
+		(lib_id "BLDC_4-rescue:+5V")
+		(at 109.22 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "062d5d9f-3240-4929-8f0a-adecbbf6e2ad")
+		(property "Reference" "#PWR076"
+			(at 109.22 124.714 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 109.22 123.19 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 127 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 127 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4cf47ec-a609-4267-9536-228f63fc2fd4")
+		)
+		(instances
+			(project "MyVesc"
+				(path "/b7d1d049-1490-46e4-83b7-ec5dff08d2d8"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "BLDC_4-rescue:C-RESCUE-BLDC_4")
 		(at 83.82 152.4 90)
 		(mirror x)
@@ -5680,6 +5787,79 @@
 			(project "MyVesc"
 				(path "/b7d1d049-1490-46e4-83b7-ec5dff08d2d8"
 					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 101.6 135.89 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a222536-7695-4603-8a85-c0daa865d6cb")
+		(property "Reference" "J8"
+			(at 101.6 141.224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NRF bluetooth"
+			(at 98.552 134.366 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
+			(at 101.6 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 101.6 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ce61286-444e-4f58-8700-80dca5a23a47")
+		)
+		(pin "4"
+			(uuid "f7056608-c49d-403e-a836-01eb50ffb0c0")
+		)
+		(pin "2"
+			(uuid "5001dff0-cae7-456d-9507-9b52b0875b44")
+		)
+		(pin "3"
+			(uuid "512a8635-595e-4207-927c-59edce75572a")
+		)
+		(instances
+			(project "MyVesc"
+				(path "/b7d1d049-1490-46e4-83b7-ec5dff08d2d8"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -6365,6 +6545,73 @@
 		)
 	)
 	(symbol
+		(lib_id "BLDC_4-rescue:GND-RESCUE-BLDC_4")
+		(at 109.22 140.97 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cb798659-ae7a-4d76-a5ad-2793d84b478b")
+		(property "Reference" "#PWR077"
+			(at 109.22 140.97 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 109.22 142.748 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 140.97 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 140.97 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6675fe3-192b-4b6e-834f-490199b7ee75")
+		)
+		(instances
+			(project "MyVesc"
+				(path "/b7d1d049-1490-46e4-83b7-ec5dff08d2d8"
+					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "BLDC_4-rescue:+5V")
 		(at 20.32 53.34 0)
 		(unit 1)
@@ -6630,72 +6877,6 @@
 			(project "MyVesc"
 				(path "/b7d1d049-1490-46e4-83b7-ec5dff08d2d8"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BLDC_4-rescue:R-RESCUE-BLDC_4")
-		(at 104.14 25.4 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "feaccf65-7968-4e7c-8e81-4cc707d23b09")
-		(property "Reference" "R1"
-			(at 104.14 22.86 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "22R"
-			(at 104.1654 25.5778 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 104.14 23.622 90)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 25.4 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 104.14 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4d1565c4-0930-4872-82d8-fff0fb1aaa06")
-		)
-		(pin "1"
-			(uuid "13d0c721-d104-455b-a05d-95b798314b7e")
-		)
-		(instances
-			(project "MyVesc"
-				(path "/b7d1d049-1490-46e4-83b7-ec5dff08d2d8"
-					(reference "R1")
 					(unit 1)
 				)
 			)

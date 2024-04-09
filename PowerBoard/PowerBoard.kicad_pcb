@@ -77,7 +77,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "exports/")
+			(outputdirectory "exports/newBoard/")
 		)
 	)
 	(net 0 "")
