@@ -3478,30 +3478,6 @@
 		(color 0 0 0 0)
 		(uuid "fd2cb000-446b-462b-b411-0c3b593c8fe8")
 	)
-	(no_connect
-		(at 186.69 153.67)
-		(uuid "084480d9-cc7c-4d85-a9ca-9aa4ac0b5827")
-	)
-	(no_connect
-		(at 186.69 146.05)
-		(uuid "3b4050dc-7cfa-4209-b85c-93a8e99d3386")
-	)
-	(no_connect
-		(at 201.93 146.05)
-		(uuid "42c046da-8927-42b9-93ca-fc9bae103b25")
-	)
-	(no_connect
-		(at 256.54 153.67)
-		(uuid "9f3de06c-eb09-4b1a-a182-30bca7cf781c")
-	)
-	(no_connect
-		(at 201.93 153.67)
-		(uuid "9fc82f2d-ef84-4693-99c0-e584cab2c90e")
-	)
-	(no_connect
-		(at 256.54 146.05)
-		(uuid "f77eef18-a303-4775-bc27-4b5e6eb069f9")
-	)
 	(wire
 		(pts
 			(xy 92.71 63.5) (xy 92.71 60.96)
@@ -11720,6 +11696,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized_US")
+		(at 186.69 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "53c314a6-82ab-4df0-ac51-5cc6c0b6012c")
+		(property "Reference" "C24"
+			(at 187.96 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470u_200V"
+			(at 187.706 153.162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm"
+			(at 186.69 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, US symbol"
+			(at 186.69 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "77dd3c9e-3e17-4800-bc08-3b7fac00d86e")
+		)
+		(pin "1"
+			(uuid "71edd47e-50b4-4073-86e4-b70ad614aac0")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/f0d46a6e-2214-493e-8380-6329d5bb9b12"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4148W")
 		(at 237.49 66.04 270)
 		(unit 1)
@@ -13175,6 +13220,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized_US")
+		(at 201.93 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "876c4a19-f86c-487d-87e4-16bf264f329f")
+		(property "Reference" "C23"
+			(at 203.2 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470u_200V"
+			(at 202.946 153.162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm"
+			(at 201.93 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, US symbol"
+			(at 201.93 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d5097644-1040-4e26-ae01-c21000bc80d4")
+		)
+		(pin "1"
+			(uuid "4f7f3d23-0190-4128-8a4e-96ea73eb60d6")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/f0d46a6e-2214-493e-8380-6329d5bb9b12"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 109.22 186.69 90)
 		(unit 1)
@@ -14389,6 +14503,75 @@
 			(project "PowerBoard"
 				(path "/f0d46a6e-2214-493e-8380-6329d5bb9b12"
 					(reference "Q12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_US")
+		(at 256.54 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad78eeed-1325-4473-a8e9-a51da9beec56")
+		(property "Reference" "C22"
+			(at 257.81 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470u_200V"
+			(at 257.556 153.162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm"
+			(at 256.54 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.54 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, US symbol"
+			(at 256.54 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "04b918b8-ac9c-4f67-9865-c0b1bec00501")
+		)
+		(pin "1"
+			(uuid "8dbefe92-45e5-46b0-aea2-b1f27156dde3")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/f0d46a6e-2214-493e-8380-6329d5bb9b12"
+					(reference "C22")
 					(unit 1)
 				)
 			)

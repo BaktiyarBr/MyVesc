@@ -6179,7 +6179,7 @@
 				)
 			)
 		)
-		(property "Value" "2k2"
+		(property "Value" "4k7"
 			(at 88.9 95.25 90)
 			(effects
 				(font
@@ -6855,7 +6855,7 @@
 				)
 			)
 		)
-		(property "Value" "2k2"
+		(property "Value" "4k7"
 			(at 134.62 95.25 90)
 			(effects
 				(font
@@ -7991,7 +7991,7 @@
 				)
 			)
 		)
-		(property "Value" "68k"
+		(property "Value" "150k"
 			(at 134.62 90.17 90)
 			(effects
 				(font
@@ -8347,7 +8347,7 @@
 				)
 			)
 		)
-		(property "Value" "2k2"
+		(property "Value" "4k7"
 			(at 43.18 95.25 90)
 			(effects
 				(font
@@ -8688,7 +8688,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "4k7"
 			(at 209.804 92.71 90)
 			(effects
 				(font
@@ -9022,7 +9022,7 @@
 				)
 			)
 		)
-		(property "Value" "68k"
+		(property "Value" "150k"
 			(at 43.18 90.17 90)
 			(effects
 				(font
@@ -9288,7 +9288,7 @@
 				)
 			)
 		)
-		(property "Value" "68k"
+		(property "Value" "150k"
 			(at 209.55 85.09 90)
 			(effects
 				(font
@@ -9628,7 +9628,7 @@
 				)
 			)
 		)
-		(property "Value" "68k"
+		(property "Value" "150k"
 			(at 88.9 90.17 90)
 			(effects
 				(font
